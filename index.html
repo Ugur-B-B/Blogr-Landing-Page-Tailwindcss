@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Landing Page</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="./images/favicon-32x32.png" />
+  </head>
+  <body>
+    <nav class="w-full p-10 bg-orange-700 relative">
+      <div class="container mx-auto">
+        <div class="hidden md:flex justify-between items-center">
+          <div>
+            <a href="#" class="text-3xl text-white mr-3">Blogr</a>
+            <a href="#" class="cursor-pointer text-lg text-white ms-3"
+              >Product</a
+            >
+            <a href="#" class="cursor-pointer text-lg text-white ms-3"
+              >Contact</a
+            >
+          </div>
+          <div>
+            <a href="#" class="text-lg cursor-pointer text-white mr-3">Login</a>
+            <a
+              href="#"
+              class="bg-white text-red-400 p-2 px-5 font-bold text-center rounded-full cursor-pointer transition-all duration-1000 hover:bg-red-400 hover:text-white"
+              >Sing Up</a
+            >
+          </div>
+        </div>
+        <!-- Hamburger button -->
+        <div class="md:hidden">
+          <button
+            type="button"
+            class="z-40 hamburger md:hidden focus:outline-none"
+            id="mobileMenuBtn"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        <div class="w-full flex justify-center items-center flex-col mt-20">
+          <h1 class="md:text-4xl text-xl font-bold text-white mb-5">
+            A modern pushlishing platform
+          </h1>
+          <p class="text-lg text-white mb-10">
+            Grow your audience and build your online brand
+          </p>
+          <div class="">
+            <a
+              href="#"
+              class="bg-white text-red-400 p-2 px-5 font-bold text-center rounded-full cursor-pointer transition-all duration-1000 hover:bg-red-400 hover:text-white"
+              >Start for Free</a
+            >
+            <a
+              href="#"
+              class="bg-red-400 text-white p-2 px-5 font-bold text-center rounded-full cursor-pointer transition-all duration-1000 hover:bg-white w-36 hover:text-red-400 border-white"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--  Mobile menu -->
+    <div
+      id="mobileMenu"
+      class="absolute top-0 bottom-0 left-0 text-center flex flex-col w-full min-h-screen pz-1 pt-40 pl-2 space-y-3 text-xl text-white uppercase bg-black md:hidden"
+    >
+      <a
+        href="#"
+        class="cursor-pointer hover:underline duration-1000 transition-all"
+        >Blogr</a
+      >
+      <a
+        href="#"
+        class="cursor-pointer hover:underline duration-1000 transition-all"
+        >Product</a
+      >
+      <a
+        href="#"
+        class="cursor-pointer hover:underline duration-1000 transition-all"
+        >Company</a
+      >
+      <a
+        href="#"
+        class="cursor-pointer hover:underline duration-1000 transition-all"
+        >Contact</a
+      >
+      <a
+        href="#"
+        class="cursor-pointer hover:underline duration-1000 transition-all"
+        >Login</a
+      >
+      <div class="py-3">
+        <a
+          href="#"
+          class="bg-white text-red-400 p-2 px-5 font-bold text-center rounded-full cursor-pointer transition-all duration-1000 hover:bg-red-400 hover:text-white"
+          >Sing Up</a
+        >
+      </div>
+    </div>
+    <section class="bg-white py-20">
+      <div class="container mx-auto">
+        <h1 class="text-center text-customBlue text-3xl mb-10">
+          Designed for the future
+        </h1>
+        <div class="flex justify-center items-center flex-col md:flex-row">
+          <!-- left -->
+          <div class="flex flex-col w-1/2 mb-5">
+            <div class="mb-5">
+              <h1 class="text-customBlue text-xl mb-5">
+                Introducing an extensible editor
+              </h1>
+              <p class="text-lg text-slate-600 tracking-wider">
+                Introducing an extensible editor Blogr features an exceedingly
+                intuitive interface which lets you focus on one thing: creating
+                content. The editor supports management of multiple blogs and
+                allows easy manipulation of embeds such as images, videos, and
+                Markdown. Extensibility with plugins and themes provide easy
+                ways to add functionality or change the looks of a blog.
+              </p>
+            </div>
+            <div>
+              <h1 class="text-customBlue text-xl mb-5">
+                Robust content management
+              </h1>
+              <p class="text-lg text-slate-600 tracking-wider">
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of your blog by adding customized
+                categories, sections, format, or flow. With this functionality,
+                you’re in full control.
+              </p>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="w-1/2">
+            <img
+              class="w-full"
+              src="./images/illustration-editor-desktop.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-slate-900">
+      <div class="container mx-auto">
+        <div
+          class="flex flex-col md:flex-row justify-center items-center gap-3"
+        >
+          <div class="w-1/2">
+            <img class="w-full" src="./images/illustration-phones.svg" alt="" />
+          </div>
+          <div class="w-1/2">
+            <h1 class="text-white font-bold text-2xl mb-5">
+              State of the Art Infrastructure
+            </h1>
+            <p class="text-white tracking-widest font-light">
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="container mx-auto">
+        <div class="flex flex-col justify-center items-center md:flex-row">
+          <!-- left side -->
+          <div class="w-1/2 mb-5">
+            <img
+              class="w-full"
+              src="./images/illustration-laptop-desktop.svg"
+              alt=""
+            />
+          </div>
+          <!-- right side -->
+          <div class="flex flex-col w-1/2">
+            <div class="mb-5">
+              <h1 class="text-customBlue text-xl mb-5">Free, open, simple</h1>
+              <p class="text-lg text-slate-600 tracking-wider">
+                Blogr is a free and open source application backed by a large
+                community of helpful developers. It supports features such as
+                code syntax highlighting, RSS feeds, social media integration,
+                third-party commenting tools, and works seamlessly with Google
+                Analytics. The architecture is clean and is relatively easy to
+                learn.
+              </p>
+            </div>
+            <div>
+              <h1 class="text-customBlue text-xl mb-5">Powerful tooling</h1>
+              <p class="text-lg text-slate-600 tracking-wider">
+                Batteries included. We built a simple and straightforward CLI
+                tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black py-20">
+      <div class="container mx-auto">
+        <div class="text-white flex justify-between flex-col md:flex-row">
+          <h1 class="text-3xl font-bold mb-8 md:mb-0">Blogr</h1>
+          <div class="flex flex-col mb-5 md:mb-0">
+            <a href="#" class="font-bold cursor-pointer mb-7">Product</a>
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Overview</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Pricing</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Marketplace</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Features</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Integrations</a
+            >
+          </div>
+          <div class="flex flex-col mb-5 md:mb-0">
+            <a href="#" class="font-bold cursor-pointer mb-7">Company</a>
+
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >About</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Team</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Blog</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Careers</a
+            >
+          </div>
+          <div class="flex flex-col mb-5 md:mb-0">
+            <a href="#" class="font-bold cursor-pointer mb-7">Contact</a>
+
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Contact</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Newsletter</a
+            >
+            <a
+              href="#"
+              class="font-light cursor-pointer mb-2 transition-all duration-1000 hover:underline"
+              >Linkedin</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
